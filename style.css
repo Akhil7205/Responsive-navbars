@@ -1,0 +1,136 @@
+*{
+    padding: 0;margin: 0; box-sizing: border-box;
+}
+/* 
+svg{
+    width:50px;
+} */
+body{
+    min-height:100vh;
+}
+header{
+    width: 100vw;
+    height: 60px;
+    background-color: black;
+    color:white;
+}
+.navbar{
+    display:flex;
+}
+.az-logo img{
+    width: 14vw;
+
+}
+/* location solt */
+.container a{
+    display: flex;
+    width: 10vw;
+    align-items: center;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.location-svg{
+    width: 10px;
+}
+.container a>svg{
+    width: 50px;
+}
+
+/* search solt */
+.search-slot{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    color: black;
+    height: fit-content;
+    width:600px;
+    background-color: white;
+
+}
+.left-part{
+background-color: rgb(186, 184, 181);
+border-radius: 10px 0px 0px 10px;
+padding: 10px;
+display: flex;
+align-items: center;
+height: 50px;
+gap:5px;
+
+}
+.chevron{
+    width: 20px;
+    
+    
+}
+
+.mid-part, input{
+    height:50px;
+    display: flex;
+    flex-grow: 2;
+
+}
+
+.right-part{
+    background-color: orange;
+    height: 50px;
+    padding:10px;
+     border-radius: 0px 10px 10px 0px ;
+}
+.right-part>svg{
+ color: black;
+    width:30px;
+}
+
+
+/* lang-slot */
+
+.lang-slot{
+    display: flex;
+height: 50px;
+padding: 0px 1em;
+gap:5px;
+    align-items: center;
+}
+.chevron{
+    width:13px;
+}
+.flag img{
+    width: 20px;
+}
+
+/* account-slot */
+
+.account-slot{
+    display: flex;
+  align-content: center;
+  width: 150px;
+  flex-wrap: wrap;
+}
+.account-slotspan{
+    font-size: 10px;
+}
+.account-slotspan{
+    font-size: 10px;
+}
+
+/* Return slot */
+.Return-slot{
+    display: flex;
+  flex-direction: column;
+justify-content: center;
+  width: 100px;
+
+}
+
+/* Cart-slot */
+
+.cart{
+    display:flex;
+    width: 70px;
+    align-items: center;
+    gap:5px
+
+}
